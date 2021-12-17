@@ -1,8 +1,8 @@
-import SongModel from "../Modals/song.model.js";
+import ArtistModel from "../Modals/artist.model.js";
 
-const model = new SongModel()
+const model = new ArtistModel()
 
-class SongController {
+class ArtistController {
     constructor() { }
 
     list = async (req, res) => {
@@ -37,4 +37,4 @@ class SongController {
     }
 
 }
-export default SongController
+export default ArtistController

@@ -1,9 +1,9 @@
 import req from "express/lib/request";
 import db from "../Config/db.config.js";
 
-class SongModel {
+class ArtistModel {
     constructor() {
-        // console.log('der er kaldt en instans af klassen SongModel');
+        // console.log('der er kaldt en instans af klassen ArtistModel');
     }
 
     list = (req, res) => {
@@ -110,4 +110,4 @@ class SongModel {
 
 }
 
-export default SongModel
+export default ArtistModel
